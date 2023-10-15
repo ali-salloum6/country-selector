@@ -21,7 +21,7 @@ const HomePage: FC = () => {
   return (
     <ApolloProvider client={client}>
       <Container>
-      <Typography variant="h3">Country Search</Typography>
+        <Typography variant="h3">Country Search</Typography>
         <CountrySelector onCountrySelect={handleCountrySelect} />
       </Container>
     </ApolloProvider>

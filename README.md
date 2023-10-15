@@ -62,3 +62,8 @@ npm install
 npm run dev
 # access the app at http://127.0.0.1:3000/
 ```
+
+## Testing
+```bash
+npm run test
+```
